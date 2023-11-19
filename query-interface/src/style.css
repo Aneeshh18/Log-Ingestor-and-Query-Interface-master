@@ -1,0 +1,77 @@
+/* styles.css */
+
+/* Add your CSS styles for the forms and buttons here */
+
+/* General form styles */
+.form-container {
+    width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  label {
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  input[type='text'],
+  input[type='datetime-local'],
+  input[type='checkbox'] {
+    width: calc(100% - 12px);
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  input[type='submit'] {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+  }
+  
+  input[type='submit']:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Button styles */
+  button {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Log display styles */
+  .log-container {
+    background: black;
+    color: white;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Filtered logs styles */
+  .filtered-logs-container {
+    background: black;
+    color: white;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
