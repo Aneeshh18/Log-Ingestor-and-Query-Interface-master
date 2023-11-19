@@ -48,7 +48,7 @@
 **1. Clone the Repository**
 
 ```bash
-//todo
+git clone https://github.com/Aneeshh18/Log-Ingestor-and-Query-Interface-master.git
 ```
 
 ### Navigate to 'Log-ingester' and 'query-interface' folders and run this app-
